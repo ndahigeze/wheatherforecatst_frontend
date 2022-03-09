@@ -1,0 +1,147 @@
+/* Tell input */
+.react-tel-input input{
+    width: 100% !important;
+}
+ .react-tel-input .form-control:focus {
+     border-color: #5e72e4;
+     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset,
+     0px 0px 8px #f5f5f7;
+}
+
+
+
+.active_section {
+    background-color: #11cdef !important;
+    color: white;
+}
+.not_active_section{
+   /* background-color: #5e72e4 !important; */
+   /* color: white; */
+}
+
+.section_holder:hover{
+   background-color: #11cdef !important;
+   color: white;
+}
+
+
+
+.table-fixed{
+    table-layout: fixed;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.th-fixed{
+     /* word-break: break-all;
+     word-wrap: break-word; */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+      width: 180;
+      display: block;
+}
+
+
+
+.th-fixed-questionaire{
+    /* word-break: break-all;
+    word-wrap: break-word; */
+   white-space: pre-wrap;
+   word-wrap: break-word;
+     width: 250;
+     display: block;
+}
+
+
+
+
+
+
+
+/* Progress bar css */
+
+ .progressbar {
+     counter-reset: step;
+     overflow: hidden;
+     color: lightgrey;
+ }
+
+ .progressbar li {
+     list-style-type: none;
+     width: 15%;
+     float: left;
+     font-size: 12px;
+     position: relative;
+     text-align: center;
+     text-transform: uppercase;
+     color: #7d7d7d;
+     /* z-index: 2; */
+ }
+
+ .progressbar li:before {
+     width: 30px;
+     height: 30px;
+     content: counter(step);
+     counter-increment: step;
+     line-height: 30px;
+     border: 2px solid #7d7d7d;
+     display: block;
+     text-align: center;
+     margin: 0 auto 10px auto;
+     border-radius: 50%;
+     background-color: #7d7d7d;
+     color: black;
+     
+ }
+
+ .progressbar li:after {
+     width: 85%;
+     height: 2px;
+     content: '';
+     background-color: #7d7d7d;
+     top: 13px;
+     left: -43%;
+     position: absolute;
+     /* z-index: -1; */
+
+ }
+
+ .progressbar li:first-child:after {
+     content: none;
+ }
+
+ .progressbar li.active {
+     color: green;
+ }
+
+ .progressbar li.active:before {
+     border-color: #55b776;
+      background-color: #55b776;
+ }
+
+ .progressbar li.active+li:after {
+     background-color: #55b776;
+ }
+
+
+ .progress-container{
+    font-size: 25px;
+    z-index: 100;
+ }
+
+
+ /* listgroup_select */
+
+
+ .listgroup_select-active{
+       position: absolute;
+       z-index: 2000;
+ }
+
+ 
+ .listgroup_select{
+       position: absolute;
+       z-index: 2000;
+       display:none
+ }
+

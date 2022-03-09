@@ -1,0 +1,7 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "terminal.integrated.allowChords": false,
+    "better-comments.highlightPlainText": true
+}
